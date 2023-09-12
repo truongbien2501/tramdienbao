@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = dienbao
+title = Lottie Demo
 
 # (str) Package name
-package.name = dienbao
+package.name = lottiedemo
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = dev.tshirtman
@@ -85,10 +85,10 @@ fullscreen = 0
 # see https://lottiefiles.com/ for examples and https://airbnb.design/lottie/
 # for general documentation.
 # Lottie files can be created using various tools, like Adobe After Effect or Synfig.
-#android.presplash_lottie = "42369-weather-wind.json"
+android.presplash_lottie = "42369-weather-wind.json"
 
 # (list) Permissions
-android.permissions = INTERNET
+#android.permissions = INTERNET
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
