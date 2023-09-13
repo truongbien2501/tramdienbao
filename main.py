@@ -225,7 +225,7 @@ class FTPApp(App):
             h7 = mucnuoc[-1]['Solieu']
             mua07 = self.tinhmua(mua,gio01,gio7)
             
-            dienbao_h = ' 22 ' + now.strftime('%d%H') + ' ' + self.buc_dien_h(h1,h7)
+            dienbao_h = ' 22 ' + now.strftime('%d%H') + ' ' + self.buc_dien_h(h7,h1)
             dienbao_r = '\n      44 ' + now.strftime('%d%H') + ' ' + self.buc_dien_r(mua07)   + '=' 
             dienbao =  batdau + dienbao_h + dienbao_r + '\n\nNNNN'
         elif now.hour==4 or now.hour==10  or now.hour==16 or now.hour==22:
@@ -236,7 +236,7 @@ class FTPApp(App):
             h7 = mucnuoc[-1]['Solieu']
             mua07 = self.tinhmua(mua,gio01,gio7)
             
-            dienbao_h = ' 22 ' + now.strftime('%d%H') + ' ' + self.buc_dien_h(h1,h7)
+            dienbao_h = ' 22 ' + now.strftime('%d%H') + ' ' + self.buc_dien_h(h7,h1)
             dienbao_r = '\n      44 ' + now.strftime('%d%H') + ' ' + self.buc_dien_r(mua07)   + '=' 
             dienbao =  batdau + dienbao_h + dienbao_r + '\n\nNNNN'
         else:
@@ -247,7 +247,7 @@ class FTPApp(App):
             h7 = mucnuoc[-1]['Solieu']
             mua07 = self.tinhmua(mua,gio01,gio7)
             
-            dienbao_h = ' 22 ' + now.strftime('%d%H') + ' ' + self.buc_dien_h(h1,h7)
+            dienbao_h = ' 22 ' + now.strftime('%d%H') + ' ' + self.buc_dien_h(h7,h1)
             dienbao_r = '\n      44 ' + now.strftime('%d%H') + ' ' + self.buc_dien_r(mua07)   + '=' 
             dienbao =  batdau + dienbao_h + dienbao_r + '\n\nNNNN'
             
